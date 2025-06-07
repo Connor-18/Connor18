@@ -323,15 +323,3 @@ textarea {
   border: 1px solid #ccc; /* Граница секции */
   border-radius: 8px; /* Закругленные углы */
 }
-
-.map {
-  width: 200px; /* Ширина квадрата */
-  height: 200px; /* Высота квадрата */
-  background-image: url('https://lh4.googleusercontent.com/proxy/nJUL9i1mvZN8sw0hd19VGTH9dYCyAiXmvVLnx6ib8miggznJkzj4rGTyHEgnT8_gxXJEVxRsxLBl8H2vkp5VFaI_NJDqV79mmbQ/800px-Moscow_road_map.svg.png');
-  /* Ссылка на изображение карты */
-  background-size: cover; /* Масштабирование изображения
-  */
-      border: 2px solid #ccc; /* Граница квадрата */
-  border-radius: 8px; /* Закругленные углы */
-  margin-left: 20px; /* Отступ слева для разделения от текста */
-}
