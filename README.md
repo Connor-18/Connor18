@@ -12,3 +12,8 @@
 ## Используемые технологии
 - HTML
 - CSS
+
+© 2025. Все права защищены.
+Лицензия: "Docusign Envelope" ID: C4158DAA-A487-4FB7-89C8-051FCD221116
+Attribution-NonCommercial-NoDerivatives 4.0 International
+CC BY-NC-ND 4.0
