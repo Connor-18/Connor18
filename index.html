@@ -264,7 +264,7 @@
     <input type="color" title="Content color" value="#000000" name="contentColor" selected>
     <header>Background</header>
     <fieldset type="background" parallax name="bg" required>
-      <input type="image" title="Image" value="assets/images/finance-made-easy.gif"selected>
+      <input type="image" title="Image" value="file:///C:/Users/User/Desktop/Saite01/assets/images/finance-made-easy.gif" selected>
       <input type="color" title="Color" value="#ffffff">
     </fieldset>
     <header condition="bg.type === 'video'">Fallback Image</header>
@@ -275,10 +275,8 @@
     <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.4" condition="overlay && bg.type !== 'color'">
 </mbr-parameters>
 
-	<section data-bs-version="5.1" class="gallery10 cid-uMRdQbyv0p" id="features-69-uMRdQbyv0p">
-  
-
-
+<div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'" mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
+</div>
   <div class="container-fluid">
 
       <div class="loop-container">
@@ -600,7 +598,8 @@
 
   <!-- Секция карты -->
 <section class="map-section">
-    <div class="map"></div> <!-- Карта в самом низу -->
+    <div class="map"></div> 
+	<!-- Карта в самом низу -->
 </section>
   
 <section data-bs-version="5.1" class="footer3 cid-uMRdQbAsrT" once="footers" id="footer-6-uMRdQbAsrT">
