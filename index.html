@@ -1,4 +1,3 @@
-
 <html  >
 <head>
   
@@ -9,7 +8,7 @@
   <meta name="description" content="Веб-сайт творческой личности - блог с категориями, медиа-раздел, биография и контакты. Подписка на соцсети и рассылку.">
 
   <style>        .main_wrapper {            display: flex;            flex-direction: column; /* Элементы располагаются в столбик */            align-items: flex-start; /* Выравнивание по началу контейнера */        }
-        .map {            width: 100%; /* Ширина карты */            height: 200px; /* Высота карты */            background-image: url('https://lh4.googleusercontent.com/proxy/nJUL9i1mvZN8sw0hd19VGTH9dYCyAiXmvVLnx6ib8miggznJkzj4rGTyHEgnT8_gxXJEVxRsxLBl8H2vkp5VFaI_NJDqV79mmbQ'); /* Обновленная ссылка на карту */            background-size: cover; /* Масштабирование изображения */            border: 2px solid #ccc; /* Граница карты */            border-radius: 8px; /* Закругленные углы */            margin-top: 20px; /* Отступ сверху для разделения от предыдущих элементов */        }
+        .map {            width: 100%; /* Ширина карты */            height: 200px; /* Высота карты */            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/World_map_blank_without_borders.svg/1920px-World_map_blank_without_borders.svg.png'); /* Обновленная ссылка на карту */            background-size: cover; /* Масштабирование изображения */            border: 2px solid #ccc; /* Граница карты */            border-radius: 8px; /* Закругленные углы */            margin-top: 20px; /* Отступ сверху для разделения от предыдущих элементов */        }
         .list {            list-style-type: none; /* Убираем маркеры списка */            padding: 0; /* Убираем отступы */        }
         .list li {            margin-bottom: 10px; /* Отступ между элементами списка */        }    
   </style>
@@ -245,46 +244,28 @@
 <section data-bs-version="5.1" class="header18 cid-uMRdQby0gs mbr-fullscreen" data-bg-video="https://youtu.be/1U8G86Dje6s" id="video-5-uMRdQby0gs">
   
 
-  <mbr-parameters>
-    <header>Size</header>
-    <input type="range" inline title="Top" name="paddingTop" min="0" max="10" step="1" value="1">
-    <input type="range" inline title="Bottom" name="paddingBottom" min="0" max="10" step="1" value="1">
-    
-    <header>Animated Text Settings</header>
-    <select title="Font style" name="linesTitle">
-      <option value="title1" selected>Title 1</option>
-      <option value="title2">Title 2</option>
-    </select>
-    <input type="text" title="Line content 1 <br> (For the best experience, please write at least 100 characters)" inline="" name="animatedLine1" value="Творчество без границ * Многогранность во всем * ">
-    <input type="range" inline title="Line speed" name="speed" min="0.01" max="0.09" step="0.01" value="0.04">
-    <select title="Direction" name="direction">
-      <option value="-1" selected>Left</option>
-      <option value="1">Right</option>
-    </select>
-    <input type="color" title="Content color" value="#000000" name="contentColor" selected>
-    <header>Background</header>
-    <fieldset type="background" parallax name="bg" required>
-      <input type="image" title="Image" value="file:///C:/Users/User/Desktop/Saite01/assets/images/finance-made-easy.gif" selected>
-      <input type="color" title="Color" value="#ffffff">
-    </fieldset>
-    <header condition="bg.type === 'video'">Fallback Image</header>
-    <input type="image" title="Fallback Image" value="../_images/background1.jpg" name="fallBackImage" condition="bg.type === 'video'">
-    <header condition="bg.type!=='color'">Overlay</header>
-    <input type="checkbox" title="Overlay" name="overlay" checked condition="bg.type !== 'color'">
-    <input type="color" title="Overlay Color" name="overlayColor" value="#ffffff" condition="overlay && bg.type !== 'color'">
-    <input type="range" inline title="Opacity" name="overlayOpacity" min="0" max="1" step="0.1" value="0.4" condition="overlay && bg.type !== 'color'">
-</mbr-parameters>
+  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+  <div class="container-fluid">
+    <div class="row">
+    </div>
+  </div>
+</section>
 
-<div class="mbr-overlay" mbr-if="overlay && bg.type!== 'color'" mbr-style="{'opacity': overlayOpacity, 'background-color': overlayColor}">
-</div>
-  <section data-bs-version="5.1" class="gallery10 cid-uMRdQbyv0p" id="features-69-uMRdQbyv0p">
-        <div class="loop-container">
+<section data-bs-version="5.1" class="gallery10 cid-uMRdQbyv0p" id="features-69-uMRdQbyv0p">
+  
+
+
+  <div class="container-fluid">
+
+      <div class="loop-container">
         <div class="item display-1" data-linewords="Творчество без границ * Многогранность во всем * " data-direction="-1" data-speed="0.05">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
 
         <div class="item display-1" data-linewords="Творчество без границ * Многогранность во всем * " data-direction="-1" data-speed="0.05">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
       </div>
+    
   </div>
 </section>
+
 <section data-bs-version="5.1" class="gallery07 cid-uMRdQbyINK mbr-parallax-background" id="gallery-14-uMRdQbyINK">
   
   <div class="mbr-overlay"></div>
@@ -377,7 +358,7 @@
                 </div>
 
                 <div class="text-wrapper align-left" data-form-type="formoid">
-                    <form action="https://formspree.io/f/xnnvjlkb" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="JeQ3Vc98n8PA1Owi6bO6GPg6Gs8Zcw8TPUMqGlgYATVtSYyg6+7WOIiBMAAI+4DU4XpI3habWT5anHg3wqgzRjQHSjRHwZbUzMC4l5rB9idvduIMzIyQmP6W4Hjdamnl">
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="JeQ3Vc98n8PA1Owi6bO6GPg6Gs8Zcw8TPUMqGlgYATVtSYyg6+7WOIiBMAAI+4DU4XpI3habWT5anHg3wqgzRjQHSjRHwZbUzMC4l5rB9idvduIMzIyQmP6W4Hjdamnl">
                         <div class="row">
                             <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                             <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -512,52 +493,29 @@
             <div class="col-12 content-head">
                 <div class="mbr-section-head mb-5">
                     <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Написать сообщнение</strong>
+                        <strong>Связаться со мной</strong>
                     </h3>
                     
                 </div>
-           <form id="my-form" action="https://formspree.io/f/xnnvjlkb" method="POST">
-  <label>Email:</label>
-  <input type="email" name="email" />
-  <label>Message:</label>
-  <input type="text" name="message" />
-  <button id="my-form-button">Submit</button>
-  <p id="my-form-status"></p>
+            </div>
+        </div>
+        <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xnnvjlkb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
-
-<!-- Place this script at the end of the body tag -->
-<script>
-  var form = document.getElementById("my-form");
-  
-  async function handleSubmit(event) {
-    event.preventDefault();
-    var status = document.getElementById("my-form-status");
-    var data = new FormData(event.target);
-    fetch(event.target.action, {
-      method: form.method,
-      body: data,
-      headers: {
-          'Accept': 'application/json'
-      }
-    }).then(response => {
-      if (response.ok) {
-        status.innerHTML = "Thanks for your submission!";
-        form.reset()
-      } else {
-        response.json().then(data => {
-          if (Object.hasOwn(data, 'errors')) {
-            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-          } else {
-            status.innerHTML = "Oops! There was a problem submitting your form"
-          }
-        })
-      }
-    }).catch(error => {
-      status.innerHTML = "Oops! There was a problem submitting your form"
-    });
-  }
-  form.addEventListener("submit", handleSubmit)
-</script>
+</section>
 
 <section data-bs-version="5.1" class="contacts4 map1 cid-uMRdQbzMZV" id="contacts-3-uMRdQbzMZV">
 
@@ -595,8 +553,7 @@
 
   <!-- Секция карты -->
 <section class="map-section">
-    <div class="map"></div> 
-	<!-- Карта в самом низу -->
+    <div class="map"></div> <!-- Карта в самом низу -->
 </section>
   
 <section data-bs-version="5.1" class="footer3 cid-uMRdQbAsrT" once="footers" id="footer-6-uMRdQbAsrT">
@@ -622,4 +579,9 @@
             </div>
         </div>
     </div>
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href=""></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/vimeoplayer/player.js"></script>  <script src="assets/scrollgallery/scroll-gallery.js"></script>  <script src="assets/masonry/masonry.pkgd.min.js"></script>  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  Add commentMore actions
+  
+  
+<div class="lang-links"></div>
+</div>
 </html>
